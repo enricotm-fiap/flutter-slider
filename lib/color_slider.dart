@@ -25,7 +25,7 @@ class ColorSlider extends StatelessWidget {
           ),
         ),
         Text(
-          '0',
+          value.toInt().toString(),
           style: TextStyle(
               color: color, fontWeight: FontWeight.bold, fontSize: 20),
         ),
